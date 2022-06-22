@@ -4,14 +4,27 @@ Merges one or more VRChat menus, parameter lists and animator controllers.
 
 ## Usage
 
-As with any Unity plugin you should backup your Unity project before using it.
+**As with any Unity plugin you should backup your Unity project before using it.**
 
-1. Import the Unity package
-2. Go to PeanutTools -> VRC Menu Merger
-3. Select the type of thing you want to merge (menus, parameters or animators)
-4. Add all of the things you want to merge together
-5. Select where you want to output the final object to
-6. Click merge!
+There are 2 ways to use this tool: with a VRChat avatar or without.
+
+### With a VRChat avatar
+
+1. Drag the prefab into your scene or add the `VRC_Menu_Merger_Instance` component to a game object
+2. Select your VRChat avatar
+3. Enable the animators you want to merge. Pick the animators you want to merge into each other.
+4. Enable if you want to merge your VRC menus and/or parameters. Pick the menus and parameters you want to merge into each other.
+5. Click merge!
+
+It will output all of the new assets into the specified directory.
+
+<img src="Assets/component empty.png" width="400">
+
+### Without a VRChat avatar
+
+The steps are identical however you need to go to PeanutTools -> VRC Menu Merger.
+
+<img src="Assets/editor window empty.png" width="400">
 
 ## Ideas for future
 
