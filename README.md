@@ -12,3 +12,8 @@ As with any Unity plugin you should backup your Unity project before using it.
 4. Add all of the things you want to merge together
 5. Select where you want to output the final object to
 6. Click merge!
+
+## Ideas for future
+
+- support all animation layers (not just base)
+- better nested menu merging
