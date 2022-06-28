@@ -1,3 +1,7 @@
+# 1.0.1
+
+- fix play mode
+
 # 1.0.0
 
 - added "companion" gameobject to set a VRC avatar to a merged object

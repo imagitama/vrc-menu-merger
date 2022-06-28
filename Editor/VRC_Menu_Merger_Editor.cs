@@ -10,7 +10,7 @@ using UnityEditor.Animations;
 using VRC.SDK3.Avatars.Components;
 using VRC.SDK3.Avatars.ScriptableObjects;
 
-using VRC_Menu_Merger;
+using PeanutTools_VRC_Menu_Merger;
 
 [System.Serializable]
 [CustomEditor(typeof(VRC_Menu_Merger_Instance))]

@@ -25,7 +25,8 @@ using VRCStation = VRC.SDK3.Avatars.Components.VRCStation;
 using VRC.SDK3.Validation;
 using VRC.Core;
 using VRCSDK2;
-using VRC_Menu_Merger;
+
+using PeanutTools_VRC_Menu_Merger;
 
 public class VRC_Menu_Merger_EditorWindow : EditorWindow
 {

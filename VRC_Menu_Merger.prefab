@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6120063027421125335
+--- !u!1 &7493828383876383841
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 450713933294184855}
-  - component: {fileID: 1385449128992709814}
+  - component: {fileID: 6182013700903066948}
+  - component: {fileID: 1361942453593054019}
   m_Layer: 0
   m_Name: VRC_Menu_Merger
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &450713933294184855
+--- !u!4 &6182013700903066948
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6120063027421125335}
+  m_GameObject: {fileID: 7493828383876383841}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.322111, y: 4.4893365, z: 30.653355}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,16 +31,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1385449128992709814
+--- !u!114 &1361942453593054019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6120063027421125335}
+  m_GameObject: {fileID: 7493828383876383841}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acb778e9971f8c4b9c616229589ea16, type: 3}
+  m_Script: {fileID: 11500000, guid: d8e41965334e9fd498213b93b10dbdcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sourceVrcAvatarDescriptor: {fileID: 0}
@@ -48,14 +48,16 @@ MonoBehaviour:
   overrideBase: 0
   overrideAdditive: 0
   overrideGesture: 0
-  overrideAction: 0
+  overrideAction: 1
   overrideFX: 0
   overrideCustomMenu: 0
   overrideCustomParams: 0
   sourcesForBase: []
   sourcesForAdditive: []
   sourcesForGesture: []
-  sourcesForAction: []
+  sourcesForAction:
+  - {fileID: 9100000, guid: 4129ca5fe7e013d44be58cba84a8eb0a, type: 2}
+  - {fileID: 9100000, guid: ca8af28b30af2c1468dad343e52337e7, type: 2}
   sourcesForFX: []
   sourcesForCustomMenu: []
   sourcesForCustomParams: []

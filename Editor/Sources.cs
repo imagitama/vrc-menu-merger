@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEditor.Animations;
 using VRC.SDK3.Avatars.ScriptableObjects;
 
-namespace VRC_Menu_Merger {
+namespace PeanutTools_VRC_Menu_Merger {
     public class SourcesManager {
         public static UnityEngine.Object[] RenderMenuMerger(UnityEngine.Object[] sources, Type sourceType) {
             UnityEngine.Object[] newSources = sources;

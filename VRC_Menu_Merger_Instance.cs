@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEditor;
-using UnityEditor.Animations;
-using VRC_Menu_Merger;
+using UnityEngine.Animations;
+
 using VRC.SDK3.Avatars.Components;
 using VRC.SDK3.Avatars.ScriptableObjects;
 
@@ -20,11 +19,11 @@ public class VRC_Menu_Merger_Instance : MonoBehaviour
     public bool overrideCustomMenu = false;
     public bool overrideCustomParams = false;
 
-    public AnimatorController[] sourcesForBase = new AnimatorController[0] {};
-    public AnimatorController[] sourcesForAdditive = new AnimatorController[0] {};
-    public AnimatorController[] sourcesForGesture = new AnimatorController[0] {};
-    public AnimatorController[] sourcesForAction = new AnimatorController[0] {};
-    public AnimatorController[] sourcesForFX = new AnimatorController[0] {};
+    public RuntimeAnimatorController[] sourcesForBase = new RuntimeAnimatorController[0] {};
+    public RuntimeAnimatorController[] sourcesForAdditive = new RuntimeAnimatorController[0] {};
+    public RuntimeAnimatorController[] sourcesForGesture = new RuntimeAnimatorController[0] {};
+    public RuntimeAnimatorController[] sourcesForAction = new RuntimeAnimatorController[0] {};
+    public RuntimeAnimatorController[] sourcesForFX = new RuntimeAnimatorController[0] {};
 
     public VRCExpressionsMenu[] sourcesForCustomMenu = new VRCExpressionsMenu[0] {};
     public VRCExpressionParameters[] sourcesForCustomParams = new VRCExpressionParameters[0] {};

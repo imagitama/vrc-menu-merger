@@ -2,7 +2,7 @@ using System.IO;
 using UnityEngine;
 using UnityEditor;
 
-namespace VRC_Menu_Merger {
+namespace PeanutTools_VRC_Menu_Merger {
     class Utils {
         public static string GetPathOfAsset(Object thing) {
             return AssetDatabase.GetAssetPath(thing);

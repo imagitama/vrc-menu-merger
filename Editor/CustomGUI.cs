@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using VRC.SDK3.Avatars.ScriptableObjects;
 
-namespace VRC_Menu_Merger {
+namespace PeanutTools_VRC_Menu_Merger {
     class CustomGUI {
         public static void LineGap() {
             EditorGUILayout.Space();

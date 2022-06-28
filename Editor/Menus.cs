@@ -3,7 +3,7 @@ using VRC.SDK3.Avatars.ScriptableObjects;
 using UnityEditor;
 using UnityEngine;
 
-namespace VRC_Menu_Merger {
+namespace PeanutTools_VRC_Menu_Merger {
     class Menus {
         public static void SaveMenu(VRCExpressionsMenu menu, string pathInsideProject) {
             AssetDatabase.CreateAsset(menu, pathInsideProject);

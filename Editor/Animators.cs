@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEditor.Animations;
 
-namespace VRC_Menu_Merger {
+namespace PeanutTools_VRC_Menu_Merger {
     class Animators {
         public static void SaveAnimatorController(AnimatorController animatorController, string pathInsideProject) {
             AssetDatabase.CreateAsset(animatorController, pathInsideProject);
