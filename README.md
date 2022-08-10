@@ -1,3 +1,5 @@
+**I found a critical bug with my tool (transitions between states are not copied and they modify the original) so until it is fixed I am archiving this tool.**
+
 # VRC Menu Merger
 
 Merges one or more VRChat menus, parameter lists and animator controllers.
